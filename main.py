@@ -9,8 +9,8 @@ play_again = True
 #Welcome the player.
 print()
 print("Welcome to Mystery Wordle!")
-print()
 while play_again == True:
+    print()
     print("Guess the five-letter word!")
     print()
     print("G = correct letter and position")
@@ -56,5 +56,7 @@ while play_again == True:
     else:
         play_again = False
 
+print()
 print("Thanks for playing! ;)")
+print()
 
